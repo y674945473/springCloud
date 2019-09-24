@@ -1,0 +1,2 @@
+org\cloud\security\SecurityApplication.class
+org\cloud\security\config\WebSecurityConfig.class

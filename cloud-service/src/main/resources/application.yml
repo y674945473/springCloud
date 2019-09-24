@@ -1,0 +1,17 @@
+server:
+  port: 9022
+
+spring:
+  application:
+    name: service
+logging:
+  level:
+    cn.study.service: DEBUG
+
+eureka: 
+  client: 
+    service-url: 
+      defaultZone: http://eureka-9013.com:9013/eureka,http://eureka-9012.com:9012/eureka,http://eureka-9011.com:9011/eureka
+  instance:
+    instance-id: service  # 在信息列表时显示主机名称
+    prefer-ip-address: true

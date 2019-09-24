@@ -1,0 +1,46 @@
+spring:
+  profiles: dev-9011
+  application:
+    name: microcloud-eureka-9011
+server:
+  port: 9011
+eureka: 
+  instance: # eureak实例定义
+    hostname: eureka-9011.com # 定义Eureka实例所在的主机名称
+  client: # 客户端进行Eureka注册的配置
+    registerWithEureka: false
+    fetchRegistry: false
+    serviceUrl:
+      defaultZone: http://eureka-9013.com:9013/eureka,http://eureka-9012.com:9012/eureka
+      
+---
+spring:
+  profiles: dev-9012
+  application:
+    name: microcloud-eureka-9012
+server:
+  port: 9012
+eureka: 
+  instance: # eureak实例定义
+    hostname: eureka-9012.com # 定义Eureka实例所在的主机名称
+  client: # 客户端进行Eureka注册的配置
+    registerWithEureka: false
+    fetchRegistry: false
+    serviceUrl:
+      defaultZone: http://eureka-9013.com:9013/eureka,http://eureka-9011.com:9011/eureka
+      
+---
+spring:
+  profiles: dev-9013
+  application:
+    name: microcloud-eureka-9013
+server:
+  port: 9013
+eureka: 
+  instance: # eureak实例定义
+    hostname: eureka-9013.com # 定义Eureka实例所在的主机名称
+  client: # 客户端进行Eureka注册的配置
+    registerWithEureka: false
+    fetchRegistry: false
+    serviceUrl:
+      defaultZone: http://eureka-9011.com:9011/eureka,http://eureka-9012.com:9012/eureka

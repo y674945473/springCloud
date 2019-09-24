@@ -1,0 +1,8 @@
+server:
+  port: 9021
+
+eureka: 
+  client: 
+    register-with-eureka: false #客户端不注册到eureka，只是进行服务的调用
+    service-url: 
+      defaultZone: http://eureka-9013.com:9013/eureka,http://eureka-9012.com:9012/eureka,http://eureka-9011.com:9011/eureka

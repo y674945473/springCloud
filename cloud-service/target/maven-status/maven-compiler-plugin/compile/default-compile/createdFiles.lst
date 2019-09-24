@@ -1,0 +1,3 @@
+org\cloud\service\ServiceApplication.class
+org\cloud\service\config\FeignClientConfig.class
+org\cloud\service\service\IDeptClientService.class
