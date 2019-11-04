@@ -22,6 +22,7 @@ public class MyScheduler {
         // 2、创建JobDetail实例，并与PrintWordsJob类绑定(Job执行内容)
         JobDetail jobDetail = JobBuilder.newJob(PrintWordsJob.class)
                                         .withIdentity("job1", "group1").build();
+        
         // 3、构建Trigger实例,每隔1s执行一次
         Trigger trigger = TriggerBuilder.newTrigger().withIdentity("trigger1", "triggerGroup1")
                 .startNow()//立即生效

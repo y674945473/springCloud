@@ -1,4 +1,7 @@
 
+spring:
+  application:
+    name: microcloud-eureka-9011
 server:
   port: 9011
 eureka: 

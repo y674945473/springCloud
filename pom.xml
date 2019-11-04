@@ -20,6 +20,7 @@
   	<module>cloud-hystrix-dept</module>
   	<module>zuul-gateway</module>
   	<module>cloud-thread</module>
+    <module>cloud-quarzt</module>
   </modules>
   <dependencyManagement>
         <dependencies>

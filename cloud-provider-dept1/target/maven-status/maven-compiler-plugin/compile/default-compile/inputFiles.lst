@@ -1,1 +1,7 @@
 F:\test\spring-cloud\cloud-provider-dept1\src\main\java\org\cloud\provider\dept\DeptApplication.java
+F:\test\spring-cloud\cloud-provider-dept1\src\main\java\org\cloud\provider\dept\job\sqlserver.java
+F:\test\spring-cloud\cloud-provider-dept1\src\main\java\org\cloud\provider\dept\job\PrintWordsJob.java
+F:\test\spring-cloud\cloud-provider-dept1\src\main\java\org\cloud\provider\dept\job\mysql.java
+F:\test\spring-cloud\cloud-provider-dept1\src\main\java\org\cloud\provider\dept\schedule\MyScheduler.java
+F:\test\spring-cloud\cloud-provider-dept1\src\main\java\org\cloud\provider\dept\conf\RedisConfig.java
+F:\test\spring-cloud\cloud-provider-dept1\src\main\java\org\cloud\provider\dept\controller\RedisTest.java

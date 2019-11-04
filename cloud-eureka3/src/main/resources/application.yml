@@ -1,5 +1,4 @@
 spring:
-  profiles: dev-9013
   application:
     name: microcloud-eureka-9013
 server:

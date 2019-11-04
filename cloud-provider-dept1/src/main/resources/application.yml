@@ -14,7 +14,7 @@ spring:
     url: jdbc:sqlserver://192.168.0.180:1400/DatabaseName=SAS_LY           # 数据库连接地址
     username: sa                                  # 数据库用户名
     password: Sas123456!     # 数据库连接密码
-    driverClassName: com.microsoft.sqlserver.jdbc.SQLServerDriver                           
+    driverClassName: com.microsoft.sqlserver.jdbc.SQLServerDriver
     dbcp2:                                          # 进行数据库连接池的配置
       min-idle: 5                                   # 数据库连接池的最小维持连接数    
       initial-size: 5                               # 初始化提供的连接数

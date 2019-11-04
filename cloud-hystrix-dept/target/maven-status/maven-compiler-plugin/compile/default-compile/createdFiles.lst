@@ -1,5 +1,6 @@
 org\cloud\provider\dept\dao\IDeptDao.class
 org\cloud\provider\dept\service\DeptService.class
 org\cloud\provider\dept\DeptApplication.class
+org\cloud\provider\dept\controller\DeptRest.class
 org\cloud\provider\dept\controller\DeptController.class
 org\cloud\provider\dept\service\Impl\DeptServiceImpl.class
